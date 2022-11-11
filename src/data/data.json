@@ -1,0 +1,37 @@
+[
+  {
+    "maSP": 1,
+    "tenSP": "Điện thoại IPHONE",
+    "soLuong": 1,
+    "giaBan": 1000,
+    "thanhTien": 1000
+  },
+  {
+    "maSP": 2,
+    "tenSP": "Điện thoại REDMI",
+    "soLuong": 1,
+    "giaBan": 2200,
+    "thanhTien": 1000
+  },
+  {
+    "maSP": 3,
+    "tenSP": "Điện thoại SAMSUNG",
+    "soLuong": 1,
+    "giaBan": 1400,
+    "thanhTien": 1000
+  },
+  {
+    "maSP": 4,
+    "tenSP": "Điện thoại OPPO",
+    "soLuong": 1,
+    "giaBan": 2000,
+    "thanhTien": 1000
+  },
+  {
+    "maSP": 5,
+    "tenSP": "Điện thoại REALME",
+    "soLuong": 1,
+    "giaBan": 1200,
+    "thanhTien": 1000
+  }
+]
