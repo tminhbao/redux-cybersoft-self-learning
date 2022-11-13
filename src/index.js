@@ -12,6 +12,8 @@ import BaiTapBurger from "./components/BaiTapBurger/BaiTapBurger";
 import BaiTapGioHangRedux from "./components/BaiTapGioHang/BaiTapGioHangRedux";
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import HomeTemplate from "./templates/HomeTemplate";
+import Home from "./components/Home/Home";
+import BaiTapOanTuXi from "./components/BaiTapOanTuXi/BaiTapOanTuXi";
 const store = createStore(RootReducer);
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
@@ -20,9 +22,11 @@ root.render(
     <BrowserRouter>
       <Routes>
         <Route path="" element={<HomeTemplate />}>
+          <Route path="" element={<Home />} />
           <Route path="baitapgiohang" element={<BaiTapGioHangRedux />} />
           <Route path="baitapburger" element={<BaiTapBurger />} />
           <Route path="baitapxucxac" element={<BaiTapGameXucXac />} />
+          <Route path="baitapoantuxi" element={<BaiTapOanTuXi />} />
         </Route>
       </Routes>
     </BrowserRouter>

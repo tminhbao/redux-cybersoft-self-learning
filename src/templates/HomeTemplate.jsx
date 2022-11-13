@@ -6,6 +6,14 @@ export default function HomeTemplate() {
     <div>
       <header className="bg-dark text-white p-3 nav">
         <NavLink
+          to=""
+          className={({ isActive }) =>
+            isActive ? "nav-link bg-white text-dark" : "nav-link"
+          }
+        >
+          Home
+        </NavLink>
+        <NavLink
           to="/baitapgiohang"
           className={({ isActive }) =>
             isActive ? "nav-link bg-white text-dark" : "nav-link"
@@ -28,6 +36,14 @@ export default function HomeTemplate() {
           }
         >
           Bài Tập Xúc Xắc
+        </NavLink>
+        <NavLink
+          to="/baitapoantuxi"
+          className={({ isActive }) =>
+            isActive ? "nav-link bg-white text-dark" : "nav-link"
+          }
+        >
+          Bài Tập Oẳn Tù Xì
         </NavLink>
       </header>
       <Outlet />
