@@ -45,6 +45,14 @@ export default function HomeTemplate() {
         >
           Bài Tập Oẳn Tù Xì
         </NavLink>
+        <NavLink
+          to="/purecomponent"
+          className={({ isActive }) =>
+            isActive ? "nav-link bg-white text-dark" : "nav-link"
+          }
+        >
+          Bài Tập Pure Component
+        </NavLink>
       </header>
       <Outlet />
     </div>
